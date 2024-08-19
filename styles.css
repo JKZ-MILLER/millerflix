@@ -1,0 +1,59 @@
+body { background:black;
+color: rgb(73, 2, 240);
+margin: 0px;
+margin-bottom:100px;
+
+    
+  }
+  
+
+
+header {border-bottom: solid 1px #2b2b9b;
+padding:20px;
+font-size:40px;
+color:#2b2b9b}
+
+.chamada {
+    background:#32033b;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+.chamada-texto {
+    margin-right: 5%;
+    color:antiquewhite
+}
+.hashtag {color: blue;}
+
+.lances-vinijr{
+
+color:#0000ff;
+font-size: 20px;
+font-style: normal;
+font-weight: 100;
+
+}
+ 
+
+
+
+.categoria-videos {display: flex;
+overflow-x:auto;
+gap:10px
+}
+ 
+
+.painel {pedding=left:20px;
+pedding-right: 20px
+margin-top:50px; }
+
+.categoria-videos img {
+opacity: 0.5;
+height: 150px;
+}
+.categoria-videos img:hover {opacity:1.0;
+border:1px solid purple;
+}
